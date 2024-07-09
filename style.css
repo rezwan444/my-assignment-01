@@ -59,3 +59,17 @@
     cursor: pointer;
 }
 /* Header Section end here::: */
+
+/* Main Content start */
+
+.main-content-section{
+    width: 1140px;
+    height: 1393px;
+    border: 1px solid red;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 118px;
+    background-color: #ADC8F7;
+}
+
+/* MAin content end */
