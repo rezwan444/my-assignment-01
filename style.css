@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:"Azeret Mono", monospace;
+}
+
 /* Header Section Start here::: */
 
 .header-section{
@@ -29,7 +33,6 @@
 .header-title-section{
     font-size: 24px;
     font-weight: 900;
-    font-family:"Azeret Mono", monospace;
     text-align: center;
     margin-top: 32px;
     
@@ -55,21 +58,159 @@
     margin-top: 32px;
     color: white;
     font-size: 20px;
-    font-family:"Azeret Mono", monospace;
     cursor: pointer;
+    border: none;
 }
 /* Header Section end here::: */
 
 /* Main Content start */
 
 .main-content-section{
+    background-color: rgb(252, 252, 252);
     width: 1140px;
     height: 1393px;
-    border: 1px solid red;
     margin-left: 148px;
     margin-right: 152px;
     margin-top: 118px;
-    background-color: #ADC8F7;
+    border-radius: 16px;
+    /* border: 0.1px solid gray; */
+    border-style: groove;
+}
+
+.main-subcontent-section{
+    width: 946px;
+    height: 1233px;
+    margin-left: 97px;
+    margin-top: 80px;
+
+}
+
+.content-title-section{
+    text-align: center;
+    width: 852px;
+    height: 113px;
+    margin-left: 47px;
+}
+
+.start-title{
+    font-size: 32px;
+    font-weight: 900;
+    color: #0D1321;
+    margin-top: 80px;
+
+}
+
+.start-content{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.content-section-box1{
+    background-color: white;
+    width: 946px;
+    height: 336px;
+    margin-top: 48px;
+    border-radius: 16px;
+}
+
+.sub-box-1{
+    display: flex;
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    gap: 114px;
+    padding: 48px;
+
+}
+
+.box-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.box-para{
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 16px;
+}
+
+.sub-box-in1{
+    width: 477px;
+    height: 219px;
+    margin-top: 10.5px;   
+}
+
+.btn-primary{
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.sub-box-in2{
+    width: 247.17px;
+    height: 240px;
+}
+
+.content-section-box2{
+    background-color: white;
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    border-radius: 16px;
+}
+
+.sub-box-2{
+    display: flex;
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    padding: 48px;
+}
+
+.sub-box-in3{
+    width: 240px;
+    height: 240px;
+}
+
+.sub-box-in4{
+    width: 477px;
+    height: 219px;
+    margin-top: 10.5px;
+    margin-left: 32px;
+}
+
+.content-section-box3{
+    background-color: white;
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    border-radius: 16px;
+}
+
+.sub-box-3{
+    display: flex;
+    width: 850px;
+    height: 240px;
+    margin: 48px;
+    gap: 131px;
+    padding: 48px;
+}
+
+.sub-box-in5{
+    width: 477px;
+    height: 219px;
+    margin-top: 10.5px;
+}
+
+.sub-box-in6{
+    width: 240px;
+    height: 240px;
 }
 
 /* MAin content end */
