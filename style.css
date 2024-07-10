@@ -100,7 +100,7 @@ body {
 /* Main Content start */
 
 .main-content-section {
-    background-color: rgb(252, 252, 252);
+    background-color: #FAFAFB;
     width: 1140px;
     height: 1393px;
     margin-left: 148px;
@@ -336,19 +336,20 @@ body {
     width: 364px;
     height: 299px;
     border-radius: 16px;
+    padding: 40px;
 }
 
 .html {
-    background-color: #FFF6F3;
+    background-color:rgb(255, 246, 243);
     padding: 40px;
 }
 
 .css {
-    background-color: #F2F6FE;
+    background-color: rgb(242, 246, 254);
 }
 
 .java {
-    background-color: #FFFDF2;
+    background-color: rgb(255, 253, 242);
 }
 
 .lang-title {
@@ -421,6 +422,15 @@ body {
     width: 1060px;
     height: 139px;
 }
+
+.language-anchormain{
+    color: #0D1321;
+    font-size: 16px;
+    /* margin-top: 48px; */
+    margin-bottom: 24px;
+    font-weight: 900;
+}
+
 
 .language-anchor {
     color: #0D1321;
