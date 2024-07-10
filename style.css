@@ -35,6 +35,7 @@ body{
     font-weight: 900;
     text-align: center;
     margin-top: 32px;
+    line-height: 68px;
     
 }
 
@@ -43,6 +44,9 @@ body{
     font-size: 16px;
     font-weight: normal;
     opacity: 80%;
+    line-height: 24px;
+   padding-left: 73px;
+   padding-right: 70px;
 }
 
 .header-button-section{
@@ -104,6 +108,7 @@ body{
     font-size: 16px;
     color: #0D1321;
     opacity: 70%;
+    line-height: 24px;
 }
 
 .content-section-box1{
@@ -134,6 +139,7 @@ body{
     font-size: 16px;
     color: #0D1321;
     margin-top: 16px;
+    line-height: 24px;
 }
 
 .sub-box-in1{
@@ -238,6 +244,7 @@ body{
 .insp-para{
     font-size: 16px;
     margin-top: 24px;
+    line-height: 24px;
 }
 
 .embed-section{
@@ -258,5 +265,153 @@ body{
 
 /* Target Section Start */
 
+.target-section{
+    width: 1140px;
+    height: 1437px;
+    margin: 150px;
+    margin-top: 151px;
+}
+
+.target-title-section{
+    width: 946px;
+    height: 113px;
+    margin-left: 97px;
+    text-align: center;
+}
+
+.target-title{
+    font-size: 32px;
+    color: #0D1321;
+}
+
+.target-sub{
+    font-size: 16px;
+    margin-top: 24px;
+    color: #0D1321;
+    line-height: 24px;
+}
+
+.lang-section{
+    display: flex;
+    width: 1140px;
+    height: 299px;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.html, .css, .java{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+}
+
+.html{
+    background-color: #FFF6F3;
+    padding: 40px;
+}
+
+.css{
+    background-color: #F2F6FE;
+}
+
+.java{
+    background-color: #FFFDF2;
+}
+
+.lang-title{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 24px;
+    color: #0D1321;
+}
+
+.lang-para{
+    font-size: 16px;
+    margin-top: 8px;
+    line-height: 24px;
+    color: #0D1321;
+}
+
+.nxt-target-section{
+    width: 1140px;
+    height: 866px;
+    margin-top: 111px;
+}
+
+.nxt-title-section{
+    width: 946px;
+    height: 113px;
+    margin-left: 97px;
+    text-align: center;
+}
+
+.programming-lang{
+    width: 1140px;
+    height: 705px;
+    margin-top: 48px;
+}
+.programming-lang{
+    width: 1140px;
+    height: 219px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.programming-react{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
+.programming-nodejs{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.programming-mongobd{
+    width: 1140px;
+    height: 219px;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.programming-box{
+    display: flex;
+    margin: 40px;
+    width: 1060px;
+    height: 139px;
+}
+
+.language-anchor{
+    color: #0D1321;
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: 900;
+}
+
+.flex-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.language-image1{
+    width: 94.78px;
+    height: 108px;
+    margin-left: 40px;
+    margin-right: 24px;
+    margin-top: 15.5px;
+}
+.language-image2{
+    width: 143.51px;
+    height: 88px;
+    margin-left: 40px;
+    margin-right: 24px;
+    margin-top: 25.5px;
+}
 
 /* Target Section End */
