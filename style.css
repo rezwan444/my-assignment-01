@@ -1,60 +1,59 @@
 /* Font style */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family:"Azeret Mono", monospace;
+body {
+    font-family: "Azeret Mono", monospace;
 }
 
 /* Header Section Start here::: */
 
-.header-section{
+.header-section {
     background-image: url('images/Hero-bg.png');
     max-width: 1440px;
     height: 652px;
     margin-top: 131px;
 }
 
-.header-content-section{
+.header-content-section {
     width: 998px;
     height: 581px;
     margin: 26px 221px 45px 221px;
 }
 
-.header-image-section{
+.header-image-section {
     text-align: center;
 }
 
-.header-title-section{
+.header-title-section {
     font-size: 24px;
     font-weight: 900;
     text-align: center;
     margin-top: 32px;
     line-height: 68px;
-    
+
 }
 
-.header-subtitle-section{
+.header-subtitle-section {
     margin-top: 24px;
     font-size: 16px;
     font-weight: normal;
     opacity: 80%;
     line-height: 24px;
-   padding-left: 73px;
-   padding-right: 70px;
+    padding-left: 73px;
+    padding-right: 70px;
 }
 
-.header-button-section{
-   text-decoration: none;
+.header-button-section {
+    text-decoration: none;
 }
 
-.header-button-section
-.header-button-style{
+.header-button-section .header-button-style {
     background-color: #0D1321;
     width: 244px;
     height: 66px;
@@ -65,11 +64,12 @@ body{
     cursor: pointer;
     border: none;
 }
+
 /* Header Section end here::: */
 
 /* Main Content start */
 
-.main-content-section{
+.main-content-section {
     background-color: rgb(252, 252, 252);
     width: 1140px;
     height: 1393px;
@@ -80,7 +80,7 @@ body{
     border: 0.1px solid gray;
 }
 
-.main-subcontent-section{
+.main-subcontent-section {
     width: 946px;
     height: 1233px;
     margin-left: 97px;
@@ -88,14 +88,14 @@ body{
 
 }
 
-.content-title-section{
+.content-title-section {
     text-align: center;
     width: 852px;
     height: 113px;
     margin-left: 47px;
 }
 
-.start-title{
+.start-title {
     font-size: 32px;
     font-weight: 900;
     color: #0D1321;
@@ -103,7 +103,7 @@ body{
 
 }
 
-.start-content{
+.start-content {
     margin-top: 24px;
     font-size: 16px;
     color: #0D1321;
@@ -111,7 +111,7 @@ body{
     line-height: 24px;
 }
 
-.content-section-box1{
+.content-section-box1 {
     background-color: white;
     width: 946px;
     height: 336px;
@@ -119,7 +119,7 @@ body{
     border-radius: 16px;
 }
 
-.sub-box-1{
+.sub-box-1 {
     display: flex;
     width: 850px;
     height: 240px;
@@ -129,26 +129,26 @@ body{
 
 }
 
-.box-title{
+.box-title {
     font-size: 24px;
     font-weight: bold;
     color: #0D1321;
 }
 
-.box-para{
+.box-para {
     font-size: 16px;
     color: #0D1321;
     margin-top: 16px;
     line-height: 24px;
 }
 
-.sub-box-in1{
+.sub-box-in1 {
     width: 477px;
     height: 219px;
-    margin-top: 10.5px;   
+    margin-top: 10.5px;
 }
 
-.btn-primary{
+.btn-primary {
     width: 171px;
     height: 47px;
     font-size: 20px;
@@ -157,12 +157,12 @@ body{
     cursor: pointer;
 }
 
-.sub-box-in2{
+.sub-box-in2 {
     width: 247.17px;
     height: 240px;
 }
 
-.content-section-box2{
+.content-section-box2 {
     background-color: white;
     width: 946px;
     height: 336px;
@@ -170,7 +170,7 @@ body{
     border-radius: 16px;
 }
 
-.sub-box-2{
+.sub-box-2 {
     display: flex;
     width: 850px;
     height: 240px;
@@ -178,19 +178,19 @@ body{
     padding: 48px;
 }
 
-.sub-box-in3{
+.sub-box-in3 {
     width: 240px;
     height: 240px;
 }
 
-.sub-box-in4{
+.sub-box-in4 {
     width: 477px;
     height: 219px;
     margin-top: 10.5px;
     margin-left: 32px;
 }
 
-.content-section-box3{
+.content-section-box3 {
     background-color: white;
     width: 946px;
     height: 336px;
@@ -198,7 +198,7 @@ body{
     border-radius: 16px;
 }
 
-.sub-box-3{
+.sub-box-3 {
     display: flex;
     width: 850px;
     height: 240px;
@@ -207,13 +207,13 @@ body{
     padding: 48px;
 }
 
-.sub-box-in5{
+.sub-box-in5 {
     width: 477px;
     height: 219px;
     margin-top: 10.5px;
 }
 
-.sub-box-in6{
+.sub-box-in6 {
     width: 240px;
     height: 240px;
 }
@@ -222,14 +222,14 @@ body{
 
 /*  My Inspiration section start */
 
-.my-inspiration-section{
+.my-inspiration-section {
     width: 1140px;
     height: 775px;
     margin-left: 148px;
     margin-top: 90px;
 }
 
-.inspiration-title{
+.inspiration-title {
     width: 852;
     height: 113px;
     margin-left: 144px;
@@ -237,17 +237,17 @@ body{
     text-align: center;
 }
 
-.insp-heading{
+.insp-heading {
     font-size: 32px;
 }
 
-.insp-para{
+.insp-para {
     font-size: 16px;
     margin-top: 24px;
     line-height: 24px;
 }
 
-.embed-section{
+.embed-section {
     width: 1140px;
     height: 614px;
     border: 0.1px solid gray;
@@ -255,7 +255,7 @@ body{
     margin-top: 48px;
 }
 
-.video{
+.video {
     width: 100%;
     height: 100%;
     padding: 48px;
@@ -265,33 +265,33 @@ body{
 
 /* Target Section Start */
 
-.target-section{
+.target-section {
     width: 1140px;
     height: 1437px;
     margin: 150px;
     margin-top: 151px;
 }
 
-.target-title-section{
+.target-title-section {
     width: 946px;
     height: 113px;
     margin-left: 97px;
     text-align: center;
 }
 
-.target-title{
+.target-title {
     font-size: 32px;
     color: #0D1321;
 }
 
-.target-sub{
+.target-sub {
     font-size: 16px;
     margin-top: 24px;
     color: #0D1321;
     line-height: 24px;
 }
 
-.lang-section{
+.lang-section {
     display: flex;
     width: 1140px;
     height: 299px;
@@ -299,64 +299,68 @@ body{
     gap: 24px;
 }
 
-.html, .css, .java{
+.html,
+.css,
+.java {
     width: 364px;
     height: 299px;
     border-radius: 16px;
 }
 
-.html{
+.html {
     background-color: #FFF6F3;
     padding: 40px;
 }
 
-.css{
+.css {
     background-color: #F2F6FE;
 }
 
-.java{
+.java {
     background-color: #FFFDF2;
 }
 
-.lang-title{
+.lang-title {
     font-size: 24px;
     font-weight: 900;
     margin-top: 24px;
     color: #0D1321;
 }
 
-.lang-para{
+.lang-para {
     font-size: 16px;
     margin-top: 8px;
     line-height: 24px;
     color: #0D1321;
 }
 
-.nxt-target-section{
+.nxt-target-section {
     width: 1140px;
     height: 866px;
     margin-top: 111px;
 }
 
-.nxt-title-section{
+.nxt-title-section {
     width: 946px;
     height: 113px;
     margin-left: 97px;
     text-align: center;
 }
 
-.programming-lang{
+.programming-lang {
     width: 1140px;
     height: 705px;
     margin-top: 48px;
 }
-.programming-lang{
+
+.programming-lang {
     width: 1140px;
     height: 219px;
     border-radius: 16px;
     margin-bottom: 24px;
 }
-.programming-react{
+
+.programming-react {
     width: 1140px;
     height: 219px;
     border: 1px solid lightgray;
@@ -364,7 +368,7 @@ body{
     margin-top: 48px;
 }
 
-.programming-nodejs{
+.programming-nodejs {
     width: 1140px;
     height: 219px;
     border: 1px solid lightgray;
@@ -372,7 +376,7 @@ body{
     margin-top: 24px;
 }
 
-.programming-mongobd{
+.programming-mongobd {
     width: 1140px;
     height: 219px;
     border: 1px solid lightgray;
@@ -380,33 +384,34 @@ body{
     margin-top: 24px;
 }
 
-.programming-box{
+.programming-box {
     display: flex;
     margin: 40px;
     width: 1060px;
     height: 139px;
 }
 
-.language-anchor{
+.language-anchor {
     color: #0D1321;
     font-size: 16px;
     margin-top: 6px;
     font-weight: 900;
 }
 
-.flex-direction{
+.flex-direction {
     display: flex;
     flex-direction: column;
 }
 
-.language-image1{
+.language-image1 {
     width: 94.78px;
     height: 108px;
     margin-left: 40px;
     margin-right: 24px;
     margin-top: 15.5px;
 }
-.language-image2{
+
+.language-image2 {
     width: 143.51px;
     height: 88px;
     margin-left: 40px;
@@ -419,16 +424,87 @@ body{
 
 /* Footer Section Start */
 
-.footer-support-section{
+.footer-support-section {
+    background-image: url('images/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
     width: 1140px;
     height: 313px;
     border-radius: 16px;
     margin-left: 150px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin-top: -49px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.footer-bottom{
+.support-title-section {
+    margin-top: 64px;
+    width: 1044px;
+    height: 185px;
+    border: 1px solid red;
+    border-style: hidden;
+    margin-top: 64px;
+    margin-left: 48px;
+}
+
+.support-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.support-sub-title {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    opacity: 80%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 180px;
+    outline: none;
+    font-size: 20px;
+    text-indent: 20px;
+    font-family: "Azeret Mono", monospace;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    text-indent: 20px;
+}
+
+
+.submit-btn {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-box-style {
+    margin-top: 64px;
+    width: 730px;
+    height: 104px;
+    margin-left: 157px;
+    text-align: center;
+}
+
+.footer-bottom {
     background-color: #F7F8F8;
     width: 1440px;
     height: 100px;
@@ -436,7 +512,7 @@ body{
     margin-top: 80px;
 }
 
-.bottom-para{
+.bottom-para {
     width: 656px;
     height: 36px;
     margin-left: 150px;
@@ -445,25 +521,28 @@ body{
     font-weight: 600;
 }
 
-.last-section{
+.last-section {
     display: flex;
 }
 
-.icon-section{
+.icon-section {
     width: 684px;
     height: 36px;
     margin-top: 32px;
     margin-right: 150px;
     text-align: right;
+    justify-content: space-around;
 }
 
-.btm-img{
+.btm-img {
     width: 37.01px;
     height: 36px;
+
 }
 
-.logo{
+.logo {
     text-decoration: none;
     margin-top: 32px;
 }
+
 /* Footer Section End */
